@@ -15,6 +15,19 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/index.js",
+    "pages/_app.js",
+    "components/Nft_forge.jsx",
+    "components/Multiple_nft.jsx",
+    "components/Modal.jsx",
+    "components/ChooseSingleNFtStake.jsx",
+    "components/Custom hooks/useGetDataNFT.js",
+    "components/Custom hooks/Contract_Router.js",
+    "components/Custom hooks/Contract.js"
+  ],
   "exclude": ["node_modules"]
 }
